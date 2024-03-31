@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoginForm from './LoginForm';
+import LoginForm from './Components/Login/LoginForm';
 
 const App = () => {
   return (
