@@ -4,9 +4,7 @@ import { FaUser, FaEye, FaEyeSlash } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-// Import the image
-import loginImage from './person.jpg';
+import personImage from '../../Images/person.jpg'; // Import the image
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -15,13 +13,12 @@ const LoginForm = () => {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
 
- 
-
   return (
     <div className="flex justify-center items-center h-screen">
       <div className="loginbox  w-full  border-2 border-sky-700 shadow-md shadow-sky-700 rounded-lg p-8 flex flex-col md:flex-row">
         <div className="mb-8 md:mb-0 md:mr-8">
-          <img src={loginImage} alt="Login" className="w-54 h-54 mx-auto md:mx-0" />
+          {/* Use the imported image */}
+          <img src={personImage} alt="Login" className="w-54 h-54 mx-auto md:mx-0" />
         </div>
         <div className="flex-1">
           <form  className="space-y-4">
