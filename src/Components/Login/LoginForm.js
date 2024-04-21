@@ -48,8 +48,20 @@ const LoginForm = () => {
               <a href="/forgot-Password" className="text-blue-500 hover:text-blue-700">Forgot password?</a>
             </div>
 
+            
+
             <button className='w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600' type="submit">Login</button>
             
+
+            <div className='flex'>
+              <p>
+              Don't have an account?
+              </p>
+              <a href='/signup' className='pl-2'>Click here</a>
+            </div>
+
+
+
           </form>
         </div>
       </div>
