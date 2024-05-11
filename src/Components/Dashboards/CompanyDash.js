@@ -24,7 +24,7 @@ const CompanyDash = () => {
                 Address:
               </th>
               <th scope="col" className="px-6 py-3 text-lg text-base">
-                View Details
+                View More Details
               </th>
             </tr>
           </thead>
@@ -35,11 +35,11 @@ const CompanyDash = () => {
                 scope="row"
                 className="px-6 py-4 font-medium  whitespace-nowrap  text-base"
               >
-                Apple MacBook Pro 17"
+                Alok Joshi
               </th>
-              <td className="px-6 py-4 text-base">Silver</td>
-              <td className="px-6 py-4 text-base">Laptop</td>
-              <td className="px-6 py-4 text-base">$2999</td>
+              <td className="px-6 py-4 text-base">9876543210</td>
+              <td className="px-6 py-4 text-base">alok@gmail.com</td>
+              <td className="px-6 py-4 text-base">Alok Apartments, Bibvewadi, Pune</td>
               <td className="px-6 py-4 text-base">
                 <a
                   href="#"
